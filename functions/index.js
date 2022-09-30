@@ -8,12 +8,7 @@ const app = require('express')()
 admin.initializeApp()
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCTdKty519lxcxmUSTPQAbjd8ZjhCGk4vo",
-    authDomain: "classsed-react-tutorial.firebaseapp.com",
-    projectId: "classsed-react-tutorial",
-    storageBucket: "classsed-react-tutorial.appspot.com",
-    messagingSenderId: "418772928902",
-    appId: "1:418772928902:web:5a7d3939e738aa97ac0407"
+    key: "REDACTED"
   };
 
 firebase.initializeApp(firebaseConfig)
